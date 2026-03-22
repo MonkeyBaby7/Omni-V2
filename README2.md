@@ -47,17 +47,24 @@ Display:
 
 | Pin | Pico |
 |----|----|
-| TX | GP8 |
-| RX | GP9 |
+| TX | GP17 |
+| RX | GP16 |
 
 ### Motor Drivers
 
 | Motor | Pins |
 |----|----|
 | M1 Front Right | GP11 GP10 |
-| M2 Back Right | GP13 GP12 |
-| M3 Back Left | GP16 GP17 |
-| M4 Front Left | GP3 GP4 |
+| M2 Back Right  | GP13 GP12 |
+| M3 Back Left   | GP14 GP15 |
+| M4 Front Left  | GP18 GP19 |
+
+### Sensor ring (BNO055)
+
+| Pin | Pico |
+|----|----|
+| RX | GP4 |   (RED)
+| TX | GP5 |   (WHITE)
 
 ---
 
